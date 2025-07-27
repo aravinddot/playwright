@@ -10,4 +10,9 @@ export class Common {
         await this.commonPage.waitForURL(url)
     }
 
+    async extractTextFromUI(xpath) {
+        const extractedText = await this.commonPage.locator(xpath).textContent();
+        return extractedText;
+    }
+
 }

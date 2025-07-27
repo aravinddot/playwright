@@ -1,0 +1,7 @@
+{
+
+"signUpName": "//input[@placeholder='Name']",
+"signUpEmail": "//input[@data-qa='signup-email']",
+"signUpButton": "//button[normalize-space()='Signup']"
+
+}
